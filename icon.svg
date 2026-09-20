@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Fondo Oscuro de la PWA -->
+  <rect width="512" height="512" rx="110" fill="#121212"/>
+  
+  <!-- Borde Discreto Ámbar -->
+  <rect x="16" y="16" width="480" height="480" rx="94" fill="none" stroke="#facc15" stroke-width="8" opacity="0.2"/>
+
+  <!-- Icono de Autobús Principal -->
+  <g transform="translate(106, 70) scale(1.2)">
+    <!-- Cuerpo del Bus (Amarillo Ámbar) -->
+    <path d="M40 180 C40 110, 80 80, 125 80 L125 80 C170 80, 210 110, 210 180 L210 240 C210 250, 200 260, 190 260 L60 260 C50 260, 40 250, 40 240 Z" fill="#facc15"/>
+    
+    <!-- Parabrisas / Ventana Superior (Oscuro) -->
+    <path d="M55 130 C55 110, 80 95, 125 95 C170 95, 195 110, 195 130 L195 170 L55 170 Z" fill="#121212"/>
+    
+    <!-- Faros Delanteros -->
+    <circle cx="70" cy="220" r="12" fill="#ffffff"/>
+    <circle cx="180" cy="220" r="12" fill="#ffffff"/>
+    
+    <!-- Parachoques / Rejilla -->
+    <rect x="95" y="215" width="60" height="10" rx="5" fill="#121212" opacity="0.6"/>
+    
+    <!-- Ruedas -->
+    <rect x="50" y="260" width="30" height="20" rx="6" fill="#27272a"/>
+    <rect x="170" y="260" width="30" height="20" rx="6" fill="#27272a"/>
+  </g>
+
+  <!-- Distintivo Oficial TMSA -->
+  <g transform="translate(330, 340)">
+    <rect x="0" y="0" width="120" height="60" rx="16" fill="#121212" stroke="#facc15" stroke-width="5"/>
+    <text x="60" y="42" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#facc15" text-anchor="middle" letter-spacing="2">TMSA</text>
+  </g>
+  
+  <!-- Texto Inferior -->
+  <text x="200" y="415" font-family="Arial, sans-serif" font-weight="900" font-size="32" fill="#ffffff" letter-spacing="2">Bus<tspan fill="#facc15">Talk</tspan></text>
+  <text x="200" y="445" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#71717a" letter-spacing="4">PASAJEROS</text>
+</svg>
